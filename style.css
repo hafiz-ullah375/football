@@ -83,7 +83,7 @@ main{
     padding-top: 70px;
     padding-left: 150px;
     padding-right: 290px;
-    padding-bottom: 100px;
+    padding-bottom: 90px;
 }
 .container-boxes{
     display: grid;
@@ -112,6 +112,55 @@ padding-top: 10px;
 .player-desription{
     width: 300px;
 }
+/* ------------- container2 extra blog --------------------- */
+.container2{
+    /* display: flex; */
+   
+    
+}
+
+.article-blog{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+    margin-bottom: 25px;
+}
+.blog{
+  
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    color: rgb(214, 212, 207);
+    background-color: rgb(129, 22, 129);
+    width: 250px;
+    margin: 5px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 5px 5px 10px 10px rgb(209, 203, 203);
+
+}
+/* ----------------article blog lat boxes */
+#article-blogs{
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+justify-content: center;
+grid-row-gap: 10px;
+grid-column-gap: 10px;
+align-items: center;
+width: 500px;
+margin-left: 430px;
+margin-top: 15px;
+margin-bottom: 30px;
+}
+.last-box{
+background-color: rgb(107, 107, 143);
+color: white;
+width: 150px;
+padding: 10px;
+text-align:center;box-shadow: 5px 5px 5px 5px rgb(247, 244, 244);
+}
+/* ----------footer section--------------------------------- */
 .footer-section{
     display: grid;
    
@@ -132,6 +181,13 @@ padding-top: 10px;
 }
 .cocial-media-icon{
     text-align: center;
+}
+.fab{
+    padding: 5px;
+    margin: 5px;
+    background-color: #f1efef;
+    border-radius: 50px;
+    color: cornflowerblue;
 }
 .copy-right{
     text-align: center;
