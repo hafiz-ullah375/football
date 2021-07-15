@@ -63,6 +63,8 @@ main{
 }
 .banner-profile{
     padding-left: 91px;
+    /* overflow: hidden; */
+  
 }
 .banner-profile img{
     width: 556px;
@@ -70,6 +72,11 @@ main{
 }
 .profile{
     width: 556px;
+}
+.banner-profile:hover img{
+    transform: scale(1.3);
+   
+    transition: transform 3s ease-in-out;
 }
 /* palyers section--------------------------------------------- */
 .container1{
@@ -128,4 +135,5 @@ padding-top: 10px;
 }
 .copy-right{
     text-align: center;
+  
 }
